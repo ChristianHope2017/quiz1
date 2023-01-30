@@ -25,6 +25,15 @@ func main(){
 		height: 3,
 	}
 
+	circle := Circle{
+		radius: 4,
+	}
+
 	triangle.Area()
 	triangle.Perimeter()
+
+	circle.Area1()
+	circle.Perimeter1()
+
+	Square(4)
 }
