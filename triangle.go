@@ -14,7 +14,8 @@ func (t Triangle) Area() float64{
 }
 
 func (t Triangle) Perimeter() float64{
-	return math.Sqrt(math.Pow(t.base, 2) + math.Pow(t.height, 2))
+	a := math.Sqrt(math.Pow(t.base, 2) + math.Pow(t.height, 2))
+	return a + t.base + t.height
 }
 
 
